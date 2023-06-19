@@ -17,15 +17,14 @@ public class Main
                 Celsius = in.nextDouble();
             in.nextLine();
             Farenheit = 32 +((1.8) * Celsius);
-                System.out.println("The temperature " + Celsius + "C is" + Farenheit + "F");
+                System.out.println("The temperature " + Celsius + " C is " + Farenheit + " F");
             done = true;
              }
-    else
-        {
-            Trash = in.nextLine();
-            System.out.println("\nyour value entered was :" + Trash);
-            System.out.println("You have an invalid entry");
-        }
+    else {
+                Trash = in.nextLine();
+                System.out.println("\nyour value entered was :" + Trash);
+                System.out.println("You have an invalid entry");
+            }
         }while (!done);
     }
 
